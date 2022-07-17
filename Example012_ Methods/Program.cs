@@ -1,4 +1,4 @@
-﻿// Вид 1
+// Вид 1
 
 // void Method1()
 // {
@@ -139,7 +139,6 @@
 
 
 
-int[] arr = {1, 5, 4, 3, 2, 6, 7, 1, 1};
 
 
 void PrintArray(int[] array)

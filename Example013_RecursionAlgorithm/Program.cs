@@ -127,13 +127,50 @@
 // f(2) = 1
 // f(n) = f(n-1) + f(n-2)
 
-double Fibonacci(int n)
-{
-    if(n == 1 || n == 2) return 1;
-    else return Fibonacci(n-1) + Fibonacci(n-2);
-}
+// double Fibonacci(int n)
+// {
+//     if(n == 1 || n == 2) return 1;
+//     else return Fibonacci(n-1) + Fibonacci(n-2);
+// }
 
-for (int i = 1; i < 30; i++)
-{
-    Console.WriteLine($"f({i}) ={Fibonacci(i)}");
+// for (int i = 1; i < 30; i++)
+// {
+//     Console.WriteLine($"f({i}) ={Fibonacci(i)}");
+// }
+
+/*List numbers = new List();
+int m = Convert.ToInt32(Console.ReadLine());
+for (int i = 0; i < m; i++) {
+numbers.Add(Convert.ToInt32(Console.ReadLine()));
 }
+Console.WriteLine(numbers.Where(n => n > 0).Count());
+Console.ReadKey();*/
+
+
+
+
+
+
+/*Random random = new Random();       // НЕ из лекции (задача на нахождении среднего значения в каждом столбце массива).
+int[,] arr = new int[random.Next(1, 10), random.Next(1, 10)];
+for (int i = 0; i < arr.GetLength(0); i++)
+{
+    for (int j = 0; j < arr.GetLength(1); j++)
+    {
+        arr[i, j] = random.Next(1, 10);
+        Console.Write(arr[i, j] + " ");
+    }
+    Console.WriteLine();
+}
+Console.WriteLine("---------------------------");
+Console.WriteLine(arr.GetLength(0));
+for (int j = 0; j < arr.GetLength(1); j++)
+{
+    double sum = 0;
+    for (int i = 0; i < arr.GetLength(0); i++)
+    {
+        sum += arr[i, j];
+    }
+    Console.Write($"{ sum / arr.GetLength(0)} ");
+}
+Console.ReadLine();*/
